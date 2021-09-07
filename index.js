@@ -19,7 +19,9 @@
     ];
 
     var ul = document.getElementById('tasksList');
-    list.forEach(item => {
+    for (var index = 0; index < list.length; index++) {
+        const item = list[index];
+
         var li = document.createElement('li');
         var label = document.createElement('label');
         var input = document.createElement('input');
@@ -35,7 +37,7 @@
 
         li.appendChild(label);
         ul.appendChild(li);
-    });
+    }
 })()
 
 function print(e) {
