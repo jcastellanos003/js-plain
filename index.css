@@ -1,0 +1,17 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2rem;
+}
+
+ul li {
+    margin: 10px;
+    color: blue;
+}
+
+.checked-line {
+    text-decoration: line-through;
+}
+
+.checked-color {
+    color: gray;
+}
